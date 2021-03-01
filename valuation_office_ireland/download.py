@@ -33,7 +33,7 @@ def _standardise_group(group, global_group):
     if group == "all":
         group = global_group
     elif isinstance(group, str):
-        group = list(group)
+        group = [group]
     else:
         logger.debug(f"{group} unchanged")
 

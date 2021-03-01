@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "valuation_office_ireland"
-version = "0.1.2"
+version = "0.1.3"
 description = "An unofficial Python API for the Valuation Office REST API"
 authors = ["Rowan Molony <rowan.molony@codema.ie>"]
 license = "MIT"
