@@ -1,0 +1,10 @@
+name: vo-api
+channels:
+  - conda-forge
+  - bjrn
+dependencies:
+  - poetry
+  - requests
+  - loguru
+  - icontract
+   

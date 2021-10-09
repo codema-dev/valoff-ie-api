@@ -1,11 +1,13 @@
-# Valuation Office Ireland
+# Unofficial `valoff.ie` Python API
 
-An unofficial Python API for the [Valuation Office API](https://www.valoff.ie/en/open-data/api/)
+[![PyPI version shields.io](https://img.shields.io/pypi/v/valoff-ie-api.svg)](https://pypi.python.org/pypi/valoff-ie-api/)
+
+An unofficial Python API for https://www.valoff.ie/en/open-data/api/
 
 ## Installation
 
 ```python
-pip install valuation-office-ireland
+pip install valoff-ie-api
 ```
 
 ## Basic Usage
@@ -13,7 +15,7 @@ pip install valuation-office-ireland
 To download all Valuation Office categories for Dublin:
 
 ```python
-from valuation_office_ireland.download import download_valuation_office_categories
+from valoff_ie_api import download_valuation_office_categories
 
 download_valuation_office_categories(
     savedir="data",
@@ -26,4 +28,4 @@ download_valuation_office_categories(
 )
 ```
 
-See `example.ipynb` for more information
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/codema-dev/valoff-ie-api/HEAD?labpath=example.ipynb) ⬅️ Run `example.ipynb` for more information
